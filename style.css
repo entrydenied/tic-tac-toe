@@ -55,7 +55,8 @@ body {
     height: 150px;
     border: 1px solid #000;
     box-sizing: border-box;
-    font-size: 72px;
+    font-size: 96px;
     text-align: center;
+    font-family: Roboto-Medium;
     line-height: 150px;
   }
