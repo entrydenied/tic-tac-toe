@@ -4,6 +4,7 @@
 
 :root {
     --cell-size: 100px;
+    --mark-size: cal(var(--cell-size) * 0.9);
 }
 
 body {
@@ -21,11 +22,16 @@ body {
     grid-template-columns: repeat(3, auto);
 }
 
-.square {
+.cell {
     width: var(--cell-size);
     height: var(--cell-size);
-    background-color: black;
-    border: 1px solid white;
+    border: 1px solid black;
+}
+
+.cell:first-child,
+.cell:nth-child(2),
+.cell:nth-child(3) {
+    border-top: none;
 }
 
 
