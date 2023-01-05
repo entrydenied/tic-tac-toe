@@ -34,7 +34,19 @@ body {
     border-top: none;
 }
 
+.cell:nth-child(3n + 1) {
+    border-left: none;
+}
 
+.cell:nth-child(3n + 3) {
+    border-right: none;
+}
+
+.cell:nth-child(7),
+.cell:nth-child(8),
+.cell:last-child {
+    border-bottom: none;
+}
 
 
 
